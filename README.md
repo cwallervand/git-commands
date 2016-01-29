@@ -6,5 +6,5 @@ A repo for convenient custom git commands.
 Add the folder cotaining the commands to your path. After you have done this you might need to restart your terminal. Then you should be able to use the commands.
 
 ## Available commands ##
-* `git acp` Adds, commits and pushes
+* `git acp` Adds, commits and pushes (acips was way to long a name)
 * `git delbr` Deletes a branch locally and on origin
