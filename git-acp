@@ -1,0 +1,14 @@
+#!/bin/sh
+
+############################################################
+# Command for adding files, making a commit and pushing it #
+# Takes two arguments: what to add and the commit message  #
+# Usage: git acp ./files_to_add "my commit message"        #
+############################################################
+
+toAdd=$1
+message="$2"
+
+git add $toAdd
+git commit -m "$message"
+git push
