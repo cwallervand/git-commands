@@ -1,0 +1,13 @@
+#!/bin/sh
+
+###############################################################################
+# Commmand for merging, pushing and deleting (locally and on origin) a branch #
+# Takes on argument:  branch name                                             #
+# Usage: git mpsdelbr branchName                                              #
+###############################################################################
+
+branch="$1"
+
+git merge "$branch"
+git push
+git delbr "$branch"
