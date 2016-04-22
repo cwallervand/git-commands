@@ -1,0 +1,17 @@
+#!/bin/sh
+
+####################################################################
+# Command for checking out branch develop and pull latest changes, #
+# then checking out a specific branch and merge develop into it    #
+# Takes one argument: branch                                       #
+# Usage: git com <branch>                                          #
+# Usecase: You are currently in a branch other than develop and    #
+# want to merge in the latest changes from branch develop          #
+####################################################################
+
+branch="$1"
+
+git co develop
+git pull
+git co "$branch"
+git git merge develop

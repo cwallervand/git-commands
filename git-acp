@@ -1,10 +1,11 @@
 #!/bin/sh
 
-############################################################
-# Command for adding files, making a commit and pushing it #
-# Takes two arguments: what to add and the commit message  #
-# Usage: git acp ./files_to_add "my commit message"        #
-############################################################
+#################################################################################
+# Command for adding files, make a commit and push the current branch           #
+# Takes two arguments: what to add and the commit message                       #
+# Usage: git acp <./files_to_add> <"my commit message">                         #
+# Usecase: You want to add everything, commit it and push it to current branch  #
+#################################################################################
 
 toAdd=$1
 message="$2"

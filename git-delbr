@@ -1,10 +1,11 @@
 #!/bin/sh
 
-#################################################
-# Commmand for deleting a locally and on origin #
-# Takes on argument:  branch name               #
-# Usage: git delbr brnchName                    #
-#################################################
+##############################################################
+# Commmand for deleting a branch locally and on origin       #
+# Takes one argument: branch                                 #
+# Usage: git delbr <branch>                                  #
+# Usecase: You want to delete a branch locally and on origin #
+##############################################################
 
 branch="$1"
 

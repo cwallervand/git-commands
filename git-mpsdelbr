@@ -2,8 +2,10 @@
 
 ###############################################################################
 # Commmand for merging, pushing and deleting (locally and on origin) a branch #
-# Takes on argument:  branch name                                             #
-# Usage: git mpsdelbr branchName                                              #
+# Takes one argument: branch                                                  #
+# Usage: git mpsdelbr <branch>                                                #
+# Usecase: You want to merge a branch in to your current branch,              #
+# then push current branch and delete the merged branch locally and on origin #
 ###############################################################################
 
 branch="$1"
