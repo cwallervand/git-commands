@@ -14,4 +14,4 @@ branch="$1"
 git co develop
 git pull
 git co "$branch"
-git git merge develop
+git merge develop
