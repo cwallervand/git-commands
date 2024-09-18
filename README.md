@@ -16,7 +16,7 @@ These are the aliases I use daily (more or less).
   aci = !git add -A && git commit
   ps = push
   pu = pull
-  m = merge
+  m = merge --no-edit
   acp = !"git add \"$1\" && git commit -m \"$2\" && git push && git status && :"
   delbr = !"git branch -d \"$1\" && git push origin --delete \"$1\" && git status && :"
   com = !"git checkout develop && git pull origin develop && git checkout \"$1\" && git merge develop && git status && :"
